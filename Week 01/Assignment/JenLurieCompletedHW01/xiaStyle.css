@@ -1,0 +1,47 @@
+body{
+background: #F6F6F6;
+color: #05080C;
+font-size: 18px;
+line-height: 1.5;
+border-top: solid #222222 5px;
+border-bottom: solid #222222 5px;
+padding-left: 30px;
+padding-right: 30px
+
+}
+
+p{
+
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+img{
+
+	float: right;
+	margin-left: 25px;
+}
+
+th{
+
+	background: #222222;
+	color: white;
+}
+
+td{
+
+	background: #eeeeee;
+}
+
+.headerstyle{
+	font-family: arial;
+	font-weight: bold;
+}
+
+a:link{
+	font-family: georgia;
+	color: #8b0000;
+}
+a:visited{
+	font-family: georgia;
+	color: #b8860b;
+}

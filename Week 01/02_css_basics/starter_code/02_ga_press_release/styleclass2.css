@@ -1,0 +1,45 @@
+
+body{ 
+	background: teal; 
+
+}
+
+article{
+
+	background: white;
+	margin: 20px 40px;
+
+}
+
+h2{
+
+	background-color: black;
+	color:white;
+
+}
+
+
+p{ color:#E81E0B;
+	font-size:14px;
+	text-decoration: underline;
+
+}
+
+li{
+
+	font-family: helvetica;
+
+}
+
+a{
+
+	color:#FF20F9;
+	text-decoration: none;
+}
+
+ul li{ 
+
+list-style-type: none;
+display:inline-block;
+
+}

@@ -1,0 +1,25 @@
+body{ 
+	background: #FFE;
+	padding: 10px;
+	border-color: #000000;
+	border-width: medium;
+	border-style: solid;
+}
+
+img 
+{
+
+	border-color: #000000;
+	border-width: medium;
+	border-style: solid;
+}
+span{
+
+	color: #887;
+}
+
+a{ 
+
+	color: #900;
+
+}
