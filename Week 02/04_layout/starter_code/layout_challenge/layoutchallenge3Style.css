@@ -1,0 +1,54 @@
+body{
+
+	background: #FFDEED;
+	width: 100%;
+}
+
+p{
+
+	text-align: center;
+}
+
+.topbox, .bottombox{
+
+	border: solid gray 2px;
+	margin: 10px;
+	overflow: hidden;
+	clear: both;
+}
+
+.bottombox:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+	
+
+.middlebox{
+	overflow:hidden;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.twofercolumn{
+
+	border: solid gray 2px;
+	margin-left: 30px;
+	width: 45%;
+	float: left;
+	box-sizing: border-box;
+	
+}
+
+
+.threecolumns{
+
+	border: solid gray 2px;
+	margin-left: 23px;
+	margin-bottom: 5px;
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+}
+

@@ -1,0 +1,188 @@
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+	height: 700px;
+  background: url(../images/header_bg.jpg) top center #131e27;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+
+
+}
+
+header > div{
+
+  margin-top: 100px;
+}
+
+.container{
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+  
+.title{
+
+  width: 100px;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+.relaxrHeader h1{
+
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 75px;
+
+}
+
+.button{
+  color:#131e27;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 280px;
+  display: block;
+  background: #f9e42e;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  padding: 12px 0px;
+
+}
+
+
+.benefitsSection{
+
+	background: #f0efef;
+	height: 650px;
+  overflow: hidden;
+  padding-top: 75px;
+    color: #033048;
+}
+
+
+.benefitsSection p{
+  font-size: 30px;
+  font-weight: 300;
+   width: 650px;
+
+}
+
+.benefitsSection ul{
+  font-size: 26px;
+  font-weight: 300;
+   width: 650px;
+   margin-left: 100px;
+   padding-right: 80px;
+   line-height: 1.4;
+}
+
+.testimonial{
+  height: 400px;
+  background: url(../images/testimonial_bg.jpg) top center #131e27;
+  background-size: cover;
+  padding-top: 32px;
+  overflow: hidden;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+.container > section{
+
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+
+}
+
+.container > section > p{
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.signup{
+
+	background: #f9e42e;
+	height: 125px;
+  overflow: hidden;
+
+}
+
+#button2{
+
+  background: #033048;
+  color: white;
+  text-align: center;
+  margin: 30px auto;
+
+}
+
+.copyright{
+	background: #121212;
+  overflow: hidden;
+	height: 500px;
+  color: white;
+  text-align: center;
+}
+
+#yellowLogo{
+  padding-top: 50px;
+  color: #f9e42e;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+section > div > span {
+
+  font-size: 50px;
+  word-spacing: 30px;
+  display: block;
+  color: white;
+
+}
+
+#CR2018{
+  padding-top: 100px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+span > a:link{
+  color: white;
+}
+
+span > a:visited{
+  color: white;
+}
