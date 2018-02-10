@@ -1,0 +1,211 @@
+
+.relaxrContainer{
+	width: 960px;
+ 	margin: 0 auto;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0; 
+}
+/* How do you get white border around page to go away */
+
+
+/* Top Navigation Bar */
+
+
+.relaxrNavigationBar{
+	background: #033048;
+	overflow: hidden;
+}
+
+/* Ask why .relaxrTopNavButtons didn't work instead of below */
+
+.relaxrContainer > nav{
+	display: flex;
+}
+
+.relaxrLogo{
+	color: white;
+	font-size: 48px;
+	font-weight: 800;
+	flex: 1;
+	max-width: 175px;
+		
+}
+
+.relaxrTopNavList{	
+	display: flex;
+	flex: 1;
+	padding: 0;
+}
+
+.relaxrTopNavLink{
+	color: #f9e42e;
+	list-style: none;
+	margin: auto 2px;
+	flex: 1;
+	font-size: 24px;
+	text-align: center;
+	max-width: 100px;
+	text-decoration: none;
+}
+
+.relaxrTopNavLink:nth-child(4){
+	max-width: 150px;
+}
+
+.relaxrTopNavLink:last-child{
+	margin-right: 0px;
+}
+
+/* Main Content */
+
+
+.relaxrMainContent{
+	background: #f0efef;
+	overflow: hidden;
+}
+
+.relaxrMainContent > div{
+	display: flex;
+}
+
+.relaxrMainBody{
+	flex:1;
+	padding: 30px 20px 0 0;
+}
+
+.relaxrMainTitle{
+	color: #043049;
+	font-size: 40px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.relaxrMainText{
+	font-size: 24px;
+	color: #606161;
+	text-decoration: none;
+}
+
+.relaxrMainBody > .relaxrMainText::first-letter{
+	font-size: 80px;
+	float: left;
+    line-height: 65px;
+    padding: 4px 8px 0 3px;
+    font-weight: 600;
+}
+
+.relaxrMainLink{
+	text-decoration: none;
+	color: #043049;
+	font-weight: 600;
+	font-size: 24px;
+	
+}
+
+.relaxrAsideBody{
+	flex: 1;
+}
+
+#aboutText{
+	font-size: 22px;
+}
+
+.relaxrAsideTitle{
+	color: #043049;
+	font-size: 34px;
+	padding-top: 30px;
+}
+
+.relaxrAsideNavList{
+	list-style: none;
+	padding-left: 0;
+}
+
+.relaxrAsideLinks{
+	text-align: left;
+	margin: 0;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+p.relaxrMainLink{
+	text-decoration: none;
+	border-bottom: black solid 1px;
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+.signup{
+
+	background: #f9e42e;
+	height: 125px;
+  overflow: hidden;
+
+}
+
+.button{
+  color:#131e27;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 280px;
+  display: block;
+  background: #f9e42e;
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: none;
+  padding: 12px 0px;
+
+}
+
+#button2{
+
+  background: #033048;
+  color: white;
+  text-align: center;
+  margin: 30px auto;
+
+}
+
+#yellowLogo{
+  padding-top: 50px;
+  color: #f9e42e;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.copyright{
+	background: #121212;
+  overflow: hidden;
+	height: 500px;
+  color: white;
+  text-align: center;
+}
+
+section > div > span {
+
+  font-size: 25px;
+  word-spacing: 50px;
+  display: block;
+  color: purple;
+
+}
+
+#CR2018{
+  padding-top: 100px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+span > a:link{
+  color: white;
+}
+
+span > a:visited{
+  color: white;
+}
