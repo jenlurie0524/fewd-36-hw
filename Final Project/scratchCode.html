@@ -1,0 +1,285 @@
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("galaxyHeroSlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3500); // Change image every 3.5 seconds
+}
+
+
+ <section class="galaxyHeroSlides" id="heroImg1">
+		<h2 class="heroText1">We are <em>also</em> fluent in over 6 million forms of communication</h2>	
+	</section>
+
+	<section class="galaxyHeroSlides" id="heroImg2">
+	
+		<h2 class= "heroText2"> We are on your side, no matter your side</h2>	
+	</section>
+
+	<section class="galaxyHeroSlides" id="heroImg3">
+	
+		<h2 class="heroText3">Addressing your needs faster than you can say "Oh, dear."</h2>	
+	</section>
+
+.galaxyHeroSlides{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  max-width: 100%;
+  height: 600px;
+  border: solid lightblue 5px;
+ }
+
+ <div class="galaxyHomePageAbout">
+	<h3>Help me, G3PO. You're my only hope.</h3>
+	<div class="aboutFlexContainer">
+	<section class="galaxyHomePageAboutSection">
+		<img src="https://cdn.officialpsds.com/imageview/rz/1w/rz1w0y_large.png?1450361473">
+		<h4>We will be with you, always</h4>
+		<p>Just like the force, we are with you - every step of the way. We will work with you to make sure you're site meets your goals and exceeds your standards.</p>
+	</section>
+	<section class="galaxyHomePageAboutSection">
+		<img src="http://webiconspng.com/wp-content/uploads/2017/09/Star-Wars-PNG-Image-83866.png">
+		<h4>Worry-Free translation</h4>
+		<p>Our sites are programmed to automatically translate languages based on the receiving planet.</p>
+	</section>
+
+
+
+SCRATCH CSS
+
+
+	body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0; 
+	background-color: black;
+}
+
+
+/*fixed images at top*/
+
+p{
+	padding-top: 25px;
+}
+
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+}
+
+div.galaxyIntro {
+  background-image: url("https://massappeal.com/wp-content/uploads/nas_star_wars_crawl_lead1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.galaxyContainer{
+	width: 1200px;
+	height: auto;
+ 	margin: 0 auto;
+}
+
+/* Style the navbar */
+#navbar{
+	overflow: hidden;
+	background: goldenrod;
+
+}
+
+.galaxyNav{
+	display: flex;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  flex: 1;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*Nav Logo*/
+
+.galaxyLogo{
+	color: black;
+	font-size: 32px;
+	font-weight: 800;
+	flex: 1;
+	max-width: 175px;
+	padding-left: 10px;
+		
+}
+
+.galaxyNavImg{
+	width: 100px;
+	height: 100px;
+	padding: 10px
+	color: black;
+}
+
+/* Hero Page */
+
+.galaxyHeroSlides{
+  background-position: center;
+  background-size: cover;
+  overflow: hidden; 
+}
+
+
+.heroText1{
+	font-weight: 600;
+	width: 500px;
+	margin-top: auto;
+	margin-left: 240px;
+	padding-top: 140px;
+}
+
+
+.heroText2{
+	font-weight: 600;
+	width: 500px;
+	margin-top: auto;
+	margin-left: 140px;
+	padding-top: 340px;
+}
+
+
+.heroText3{
+	font-weight: 800;
+	width: 450px;
+	margin-top: auto;
+	margin-left: 40px;
+	padding-top: 140px;
+	text-align: center;
+}
+ 
+.demoButton{
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 280px;
+  display: block;
+  background: goldenrod;
+  margin: -50px auto 0 auto;
+  text-decoration: none;
+  padding: 12px 0px;
+  text-align: center;
+}
+
+/*Home Page About Section*/
+
+.galaxyHomePageAbout{
+	color: lightblue;
+
+}
+
+
+.aboutFlexContainer{
+	display: flex;
+}
+
+.galaxyHomePageAboutSection{
+	flex: 1;
+	text-align: center;
+}
+
+.galaxyHomePageAboutSection img{
+	width: auto;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#lightspeedImg{
+	border-radius: 50%;
+}
+
+
+	<!--Bootstrap Carousel begin-->
+
+<div class="row">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="galaxyHeroSlides col-sm-12" src="img/heroSlide1.jpg" alt="c3po and r2d2" style="width:1200px;height:480px">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img class="galaxyHeroSlides col-sm-12" src="img/heroSlide2.jpg" alt="death star" style="width:1200px;height:480px">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img class="galaxyHeroSlides col-sm-12" src="img/herosSlide3.jpeg" alt="c3po" style="width:1200px;height:480px">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+	<!--Bootstrap Carousel end-->
+
+	  <!-- Request a Demo Button -->
+
+	<a href="" class="demoButton">Request a Demo</a>
+</div>

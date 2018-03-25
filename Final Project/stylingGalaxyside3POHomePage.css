@@ -1,0 +1,180 @@
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0; 
+	background-color: black;
+}
+
+
+/*fixed images at top*/
+
+p{
+	padding-top: 25px;
+}
+
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+div {
+  width: 100%;
+  height: 100%;
+}
+
+div.galaxyIntro {
+  background-image: url("https://massappeal.com/wp-content/uploads/nas_star_wars_crawl_lead1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+/* Style the navbar */
+#navbar{
+	overflow: hidden;
+	background: goldenrod;
+
+}
+
+.galaxyNav{
+	display: flex;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  flex: 1;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  flex: 1;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*Nav Logo*/
+
+.galaxyLogo{
+	color: black;
+	font-size: 32px;
+	font-weight: 800;
+	flex: 1;
+	max-width: 175px;
+	padding-left: 10px;
+		
+}
+
+.galaxyNavImg{
+	width: 100px;
+	height: 100px;
+	padding: 10px
+	color: black;
+}
+
+/* Hero Page */
+
+.galaxyHeroSlides{
+  background-position: center;
+  background-size: cover;
+  overflow: hidden; 
+}
+
+
+.heroText1{
+	font-weight: 600;
+	width: 500px;
+	margin-top: auto;
+	margin-left: 240px;
+	padding-top: 140px;
+}
+
+
+.heroText2{
+	font-weight: 600;
+	width: 500px;
+	margin-top: auto;
+	margin-left: 140px;
+	padding-top: 340px;
+}
+
+
+.heroText3{
+	font-weight: 800;
+	width: 450px;
+	margin-top: auto;
+	margin-left: 40px;
+	padding-top: 140px;
+	text-align: center;
+}
+ 
+.demoButton{
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 280px;
+  display: block;
+  background: goldenrod;
+  margin: -50px auto 0 auto;
+  text-decoration: none;
+  padding: 12px 0px;
+  text-align: center;
+}
+
+/*Home Page About Section*/
+
+.galaxyHomePageAbout{
+	color: lightblue;
+
+}
+
+
+.aboutFlexContainer{
+	display: flex;
+}
+
+.galaxyHomePageAboutSection{
+	flex: 1;
+	text-align: center;
+}
+
+.galaxyHomePageAboutSection img{
+	width: auto;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#lightspeedImg{
+	border-radius: 50%;
+}
