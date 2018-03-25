@@ -1,7 +1,6 @@
 jQuery(document).ready(function(){
 //on click "update", recognize city variable
-
-	jQuery("#submit-btn").click(function(event){
+	jQuery("#submit-btn").click(function(){
 		event.preventDefault();
 		var city = jQuery("#city-type").val();
 		jQuery('#city-type').val('');
@@ -10,33 +9,26 @@ jQuery(document).ready(function(){
 			//had to look at solution for toLowerCase and trim
 //change background to corresponding city
 
-jQuery('#submit-btn').click(switchCity);
-
-	if(city == 'New York City' || city == 'nyc' || city == 'New York') {
+	if(city == 'new york city' || city == 'nyc' || city == 'new york') {
 		jQuery('body').attr('class','nyc');
 	}
 
-	else if (city == 'Austin' || city == 'atx') {
+	else if(city == 'austin' || city == 'atx') {
 		jQuery('body').attr('class','austin');
 	}
 
-	else if(city == 'Los Angeles' || city == 'la') {
+	else if(city == 'los angeles' || city == 'la') {
 		jQuery('body').attr('class','la');
 	}
 
-	else if (city == 'San Francisco' || city == 'SF' || city == 'san fran') {
+	else if(city == 'san francisco' || city == 'sf' || city == 'san fran') {
 		jQuery('body').attr('class','sf');
 	}
 
-	else if (city == 'sydney') {
+	else if(city == 'sydney') {
 		jQuery('body').attr('class','sydney');
 	}
 
 	});
 
 });
-
-//tried to create separate function "switchCity" but wasn't neccessary
-//when do you create a function vs keep it all under the document ready 
-//example: jQuery('#submit-btn').click(switchCity);
-//what's the difference between add class and attr
