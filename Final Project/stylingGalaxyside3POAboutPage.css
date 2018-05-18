@@ -1,0 +1,180 @@
+body{
+background: black;
+color: lightblue;
+}
+.aboutContainer{
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Style the navbar */
+#navbar{
+  overflow: hidden;
+  background: goldenrod;
+  z-index: 1;
+}
+
+.galaxyNav{
+  display: flex;
+}
+
+/* Navbar links */
+.flexNav{
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  flex: 1;
+}
+
+
+/*Nav Logo*/
+
+.galaxyLogo{
+  color: black;
+  font-size: 32px;
+  font-weight: 800;
+  flex: 1;
+  max-width: 175px;
+  padding-left: 10px;
+    
+}
+
+.galaxyNavImg{
+  width: 100px;
+  height: 100px;
+  padding: 10px
+  color: black;
+}
+
+.galaxyAboutBanner h1{
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.button{
+  color:black;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 280px;
+  display: block;
+  background: goldenrod;
+  margin-top: -20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  text-decoration: none;
+  padding: 12px 0px;
+  text-align: center;
+
+}
+
+a:hover{
+  color: white;
+}
+
+#button1{
+  text-decoration: none;
+ 
+}
+
+
+#button2{
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: auto;
+}
+
+.ourProcessSection{
+
+  background: url("Img/starWarsStars.png");
+  height: 650px;
+  overflow: hidden;
+  padding-top: 75px;
+  color: goldenrod;
+
+}
+
+
+#aboutTitle{
+  font-size: 30px;
+  font-weight: 800;
+   width: 650px;
+   color: white;
+
+}
+
+.ourProcessSection h1{
+  font-size: 30px;
+  font-weight: 800;
+   width: 650px;
+   color: goldenrod;
+
+}
+
+.ourProcessSection ul{
+  font-size: 26px;
+  font-weight: 300;
+   width: 650px;
+   margin-left: 100px;
+   padding-right: 80px;
+   line-height: 1.4;
+}
+
+.aboutTestimonials{
+  height: 550px;
+  background: #131e27;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+
+.copyright{
+  background: black;
+  overflow: hidden;
+  height: 300px;
+  color: white;
+  text-align: center;
+}
+
+.galaxyLogo{
+  color: black;
+  font-size: 32px;
+  font-weight: 800;
+  flex: 1;
+  max-width: 175px;
+  padding-left: 10px;
+    
+}
+
+.galaxyNavImg{
+  width: 100px;
+  height: 100px;
+  padding: 10px
+  color: black;
+}
+
+.signup{
+  background: black;
+}
+
+.copyright{
+  padding-top: 100px;
+}
+.copyrightText{
+  color: goldenrod;
+  padding-top: 15px;
+  background: black;
+}

@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #aaa;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Style the navbar */
+#navbar{
+  overflow: hidden;
+  background: goldenrod;
+  z-index: 1;
+}
+
+.galaxyNav{
+  display: flex;
+}
+
+/* Navbar links */
+.flexNav{
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  flex: 1;
+}
+
+
+/*Nav Logo*/
+
+.galaxyLogo{
+  color: black;
+  font-size: 32px;
+  font-weight: 800;
+  flex: 1;
+  max-width: 175px;
+  padding-left: 10px;
+    
+}
+
+.galaxyNavImg{
+  width: 100px;
+  height: 100px;
+  padding: 10px
+  color: black;
+}
+
+
+
+/* HEADER */
+
+.site-header {
+    background-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 2px;
+    padding: 20px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    color: goldenrod;
+}
+
+.logo a {
+    color: goldenrod;
+}
+
+.navigation {
+    width: 750px;
+    float: right;
+}
+
+.horizontal-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.horizontal-nav li{
+    display: inline-block;
+}
+
+.main-nav {
+    font-size: 22px;
+    color: white;
+}
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav li:last-child{
+    margin-right: 0;
+}
+
+.main-nav a {
+    color: white;
+}
+
+.main-nav strong {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Oswald';
+}
+
+/* contentContainer */
+
+.contentContainer {
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+
+
+/* BODY LAYOUT */
+
+
+.main_content {
+    background: white;
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+
+p{
+    font-size: 18px;
+    width: 800px;
+    padding-left: 20px;
+}
+
+.memberCompanyLogoHaus{
+  float: left;
+  padding: 15px;
+}
+
+#aboutDeveloperTitle{
+  text-align: center;
+}
+
+.resumeContainer{
+  width: 960px;
+  margin: auto;
+}
+/* responsiveTileGroup */
+
+
+
+@media only screen and (max-width: 960px) {
+    .responsiveTileGroupItem{
+        width: 100%;
+        float: none;
+
+    }
+}
+
+
+.copyright {
+    font-family: 'Merriweather', serif;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.copyrightText{
+text-align: center;
+  color: goldenrod;
+  padding-top: 15px;
+  background: black;
+}
+
+.galaxyNavImg{
+
+}
